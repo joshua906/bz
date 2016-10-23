@@ -9,8 +9,7 @@
 <link href="resources/css/bz.css" rel="stylesheet" type="text/css">
 
 <!-- google fonts -->
-
-<script src="jquery-1.12.4.min.js"></script>
+<script src="resources/scripts/bz.js"></script>
 </head>
 
 <body>
@@ -24,15 +23,26 @@
     </div>
 </div>
 <!-- Navigation -->
-
-	
-	
+<div class="nav">
+	<div class="container">
+		<ul class="topnav" id="myTopnav">
+  			<li><a href="#home">Home</a></li>
+  			<li><a href="#news">News</a></li>
+  			<li><a href="#contact">Contact</a></li>
+  			<li><a href="#about">About</a></li>
+  			<li class="icon">
+    		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  			</li>
+		</ul>
+	</div>
+</div>
 <!-- about section-->
 <div class="about">
 	<div class="container">
     	<div class="row">
         	<div class="col-xs-12 col-sm-6 col-m-6 col-lg-6">
             	<h2>Welcome to BZ</h2>
+                <p id="demo"></p>
             </div>
         </div>
     </div>
