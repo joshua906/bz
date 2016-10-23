@@ -35,45 +35,21 @@ p {
 }
 
 .button {
-  border-radius: 4px;
-  background-color: green;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 100%;
 }
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-	
+em {
+	font-size: .8em;
+	}
 /*-----------------------
 navbar
 ------------------------*/
@@ -192,15 +168,15 @@ video {
 	
 	latest videos
 	---------------------*/
-.just-added h2 {
+.just-added h3 {
 	padding-bottom: 20px;
+	text-align: left;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
-	height: 100%;
-    border-radius: 5px;
+    width: 95%;
+    border-radius: 2px;
 }
 
 .card:hover {
@@ -208,15 +184,41 @@ video {
 }
 
 img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 2px;
 
 }
 
 .container-card {
-    padding: 2px 16px;
+    padding: 8px 16px;
 	background-color: #fff;
 }
 .category-text {
 	text-transform: uppercase;
 	font-weight: bold;
+	}
+	
+	/*----------------
+	most watched 
+	------------------*/
+.most-watched h3 {
+	text-align: left;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	}
+	
+.most-watched-img {
+    position: relative;
+}
+.most-watched-img {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    overflow: hidden;
+}
+
+.container-card-most {
+	padding: 2px 16px;
+	background-color: #fff;
 	}
