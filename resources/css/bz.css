@@ -9,6 +9,36 @@ Global Changes
 .overlay {
 	background-color: #f0f0f0;
 	}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	}
+p {
+	font-family: 'Montserrat', sans-serif;
+	}
+.banner {
+	background-color: #fff;
+	}
+.box-shadow {
+    -webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+    -moz-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+    box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+}
+.bg-primary {
+    background-color: #ff6015;
+    color: #fff;
+}
+.banner-content {
+    padding: 20px 35px 30px 35px;
+    margin-bottom: 35px;
+}
+.banner_wrap {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+	
+	
+	
 /*-----------------------
 navbar
 ------------------------*/
