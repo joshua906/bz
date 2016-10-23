@@ -39,7 +39,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.7s;
     font-size: 17px;
 }
 
@@ -47,9 +47,17 @@ ul.topnav li a {
 ul.topnav li a:hover {background-color: #fff;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+ul.topnav li.icon {
+	display: none;
+	}
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
+	ul.topnav{
+		padding-top: 17px;
+		}
+	.nav{
+		height: 80px;
+		}
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
