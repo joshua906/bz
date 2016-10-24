@@ -35,7 +35,7 @@ p {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #2E2E2E;
     border: none;
     color: white;
     text-align: center;
@@ -173,10 +173,11 @@ video {
 	text-align: left;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:;
     transition: 0.3s;
-    width: 95%;
-    border-radius: 2px;
+    width: 100%;
+    border-radius: 0px;
+	margin-top: 20px;
 }
 
 .card:hover {
@@ -221,4 +222,22 @@ img {
 .container-card-most {
 	padding: 2px 16px;
 	background-color: #fff;
+	}
+
+/*----------------------------
+footer
+----------*/
+.footer {
+	background-color: #fff;
+	padding-top: 15px;
+	margin-top: 20px;
+	}
+	
+.footer p {
+		font-size: .7em;
+		}
+.footer ul li {
+	text-decoration: none;
+	list-style: none;
+	margin-left: -38px;
 	}
