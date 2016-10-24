@@ -220,8 +220,9 @@ img {
 }
 
 .container-card-most {
-	padding: 2px 16px;
+	padding: 0px 0px;
 	background-color: #fff;
+	margin-top: 15px;
 	}
 
 /*----------------------------
