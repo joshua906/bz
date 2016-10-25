@@ -175,7 +175,7 @@ video {
 .card {
     box-shadow:;
     transition: 0.3s;
-    width: 100%;
+    width: 95%;
     border-radius: 0px;
 	margin-top: 20px;
 }
