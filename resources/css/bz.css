@@ -242,3 +242,30 @@ footer
 	list-style: none;
 	margin-left: -38px;
 	}
+	/*--------------
+playlist
+------------*/
+.card-playlist {
+    box-shadow:;
+    transition: 0.3s;
+    width: 95%;
+    border-radius: 0px;
+	margin-top: 20px;
+}
+
+.playlist h3 {
+	text-align: left;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.card-playlist {
+    box-shadow:;
+    transition: 0.3s;
+    width: 95%;
+    border-radius: 0px;
+	margin-top: 20px;
+}
+.container-card-playlist {
+    padding: 8px 16px;
+	background-color: #fff;
+}
