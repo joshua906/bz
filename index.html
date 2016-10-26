@@ -15,6 +15,7 @@
 <script src="resources/scripts/bz.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.2.3/typeit.min.js"></script>
 
 </head>
 
@@ -61,11 +62,11 @@
             <source src="video/Cheer-up.webm" type="video/webm">
           <source src="video/Cheer-up.ogv" type="video/ogg">
         </video>
-      <h3>"Headline Text will go here"</h3>
+      <h1></h1>
+      <span class="type-it"></span>
     </div>
 </div>
 </div>
-
 <!-- about section-->
 
 <div class="about">
@@ -138,6 +139,15 @@
         </div>
     </div>
 </div>
+<div class="wrap">
+<div class="type-wrap">
+  <div id="typed-strings">
+                <span>Typed.js is a <strong>jQuery</strong> plugin.</span>
+                <p>It <em>types</em> out sentences.</p>
+                <p>And then deletes them.</p>
+                <p>Try it out!</p>
+  </div>
+            </div></div>
 <!-- most watched -->
 <div class="most-watched">
 	<div class="container">
@@ -259,7 +269,7 @@
   					<img src="resources/img/nebula.jpg" alt="cardimg" style="width:100%">
   					<div class="container-card-playlist">
                     <p><em>January 22,2017</em></p>
-						<h5>Dealing with peer pressure</h5>
+						<h5 class="element">Dealing with peer pressure</h5>
   					</div>
 				</div>
             </div>
@@ -304,5 +314,10 @@
         </div>
     </div>
 </div>
+<script>
+  $('.type-it').typeIt({
+    strings: ['Headline Text will go here', 'And anything else we want to add!']
+  }); 
+</script>
 </body>
 </html>
