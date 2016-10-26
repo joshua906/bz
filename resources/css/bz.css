@@ -7,7 +7,7 @@ Global Changes
 
 ----------------------*/
 .overlay {
-	background-color: #f0f0f0;
+	background-color: #fbfbfb;
 	}
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
@@ -58,6 +58,7 @@ em {
 	}
 .top-nav {
 	background-color: #fff;
+	border-bottom: 1px solid #fff;
 }
 /*-----------------------
 navbar
@@ -119,6 +120,19 @@ navbar
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #fff;
 	
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 /*--------------------
 video hero
