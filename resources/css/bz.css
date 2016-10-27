@@ -10,11 +10,15 @@ Global Changes
 	background-color: #fbfbfb;
 	}
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	}
 p {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+    letter-spacing: .4px;
+    font-size: 1.1em;
+    line-height: 22px;
 	}
 .banner {
 	background-color: #fff;
@@ -90,7 +94,7 @@ em {
     top: 0px;
     width: 100%;
     z-index: 1200;
-	transition:all 0.5s;
+	transition:all 0.3s;
 }
 .fixed {
     box-shadow:0 2px 6px;  
@@ -127,8 +131,9 @@ navbar
     box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
 }
 .navbar a {
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Raleway', sans-serif; 
 	text-transform: uppercase;
+	font-weight:700;
 	}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     padding-top: 1.2%;
@@ -245,7 +250,7 @@ video hero
 
 .header-container {
     width: 100%;
-    height: 531px;
+    height: 600px;
     border-left: none;
     border-right: none;
     position: relative;
@@ -266,7 +271,7 @@ video hero
     top: 35%;
     width: 100%;
     text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2.8em;
 	}
 .video-container{
@@ -287,9 +292,9 @@ video {
 	text-align: center;
 	}
 	
-	/*------------------
+/*------------------
 	about section 
-	---------------*/
+---------------*/
 .about {
 	padding-top: 40px;
 }
@@ -366,8 +371,9 @@ video {
 	latest videos
 	---------------------*/
 .just-added h3 {
-	padding-bottom: 20px;
-	text-align: left;
+    padding-bottom: 5px;
+    text-align: left;
+    font-weight: 400;
 }
 .card {
     box-shadow:;
@@ -379,24 +385,24 @@ video {
 }
 
 
-.card:hover {
+/*.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.card img:hover {
+}*/
 
-	}
 img {
-    border-radius: 2px;
+    border-radius: 0px;
 
 }
 
 .container-card {
-    padding: 16px 16px;
+    padding: 30px 30px;
 	background-color: #fff;
 }
 .category-text {
-	text-transform: uppercase;
+	font-weight: 700px;
 	font-weight: bold;
+	font-family: 'Raleway', sans-serif; 
+	color: purple;
 	}
 	
 	/*----------------
@@ -425,7 +431,9 @@ img {
 	background-color: #fff;
 	margin-top: 15px;
 	}
-
+.most-watched h6 {
+	padding-top: 10px;
+}
 /*----------------------------
 footer
 ----------*/
@@ -449,7 +457,7 @@ playlist
 .card-playlist {
     box-shadow:;
     transition: 0.3s;
-    width: 95%;
+    width: 100%;
     border-radius: 0px;
 	margin-top: 20px;
 }
