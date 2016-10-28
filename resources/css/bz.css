@@ -167,6 +167,7 @@ navbar
 }
 .navbar-inverse .navbar-nav>li>a {
     color: purple;
+	letter-spacing: .8px;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
     color: green;
@@ -394,7 +395,7 @@ video {
     transition: 0.3s;
     width: 100%;
     border-radius: 0px;
-	margin-top: 20px;
+	margin-top: 0px;
 	
 }
 
@@ -484,7 +485,7 @@ playlist
 .card-playlist {
     box-shadow:;
     transition: 0.3s;
-    width: 95%;
+    width: 100%;
     border-radius: 0px;
 	margin-top: 20px;
 }
@@ -498,7 +499,7 @@ playlist
   position: relative;
   margin: 0px;
   max-width: 100%;
-  background-color: #2266a5;
+  background-color: rgba(128,0,128,.5);
   color: #fff;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
@@ -514,7 +515,7 @@ playlist
 }
 [class^='imghvr-'] figcaption,
 [class*=' imghvr-'] figcaption {
-  background-color: #135796;
+  background-color:rgba(128,0,128,.5) ;
   padding: 30px;
   position: absolute;
   top: 0;
@@ -563,6 +564,8 @@ playlist
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
+/* imghvr-fade-*
+   ----------------------------- */
 [class^='imghvr-fade'] figcaption,
 [class*=' imghvr-fade'] figcaption {
   opacity: 0;
@@ -582,9 +585,20 @@ playlist
   -webkit-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
 }
+/* imghvr-fade-in-down
+   ----------------------------- */
+.imghvr-fade-in-down figcaption {
+  -webkit-transform: translate(0, -15%);
+  transform: translate(0, -15%);
+}
 
-
-.imghvr-fade-in-up figcaption {
-  -webkit-transform: translate(0px, 15%);
-  transform: translate(0px, 15%);
+/****  icons  ******/
+.fa .fa-play-circle-o {
+	color: #fff;
+	z-index: 100;
+	position: absolute;
+	padding: 10px 10px;
+}
+.fa {
+    padding: 12% 39%;
 }
