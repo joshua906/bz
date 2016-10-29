@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 400;
 	}
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #888888;
     letter-spacing: .4px;
     font-size: 1.1em;
@@ -39,18 +39,18 @@ p {
 }
 
 .button {
-    background-color: #2E2E2E;
-    border: none;
+    background-color: #fff;
+    border: 2px solid rgb(51,51,51);
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px 0px;
+    margin: 14px 0px;
     cursor: pointer;
     margin-bottom: 15px;
-    width: 100%;
-	border-radius: 4px;
+    width: 50%;
+    border-radius: 4px;
 }
 em {
 	font-size: .8em;
@@ -360,7 +360,8 @@ video {
     width: 100%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 2em;}
+    font-size: 2em;
+	}
 	}
 /*------------------
 	about section 
@@ -472,6 +473,11 @@ top:0;
     font-weight: 500;
 	color:;
 }
+.just-added h6{
+	color: #01a433;
+    font-weight: 500;
+    letter-spacing: .8px;
+}
 .card {
     box-shadow:;
     transition: 0.3s;
@@ -537,26 +543,33 @@ img {
 .most-watched h6 {
 	padding-top: 10px;
 }
+
 /*----------------------------
 footer
 ----------*/
 .footer {
-	background-color: #fff;
+	background-color: #240828;
+	color: #fff;
 	padding-top: 15px;
 	margin-top: 20px;
+	padding-bottom: 42px;
 	}
 	
 .footer p {
-		font-size: .7em;
+		font-size: 1em;
 		}
 .footer ul li {
 	text-decoration: none;
 	list-style: none;
 	margin-left: -38px;
+	margin-bottom: -10px;
 	}
 	/*--------------
 playlist
 ------------*/
+.playlist {
+	    margin-bottom: 40px;
+}
 .card-playlist {
     box-shadow:;
     transition: 0.3s;
