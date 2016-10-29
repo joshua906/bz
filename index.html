@@ -9,7 +9,7 @@
 <link href="resources/css/bz.css" rel="stylesheet" type="text/css">
 
 <!-- google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
  <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
 <!-- scripts -->
@@ -20,7 +20,15 @@
 
 </head>
 
-<body class="overlay">
+<body class="overlay loaded">
+
+<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+</div>
 <!--Top Navigation info-->
 <!--<div class="top-nav">
 	<div class="container">
@@ -31,7 +39,7 @@
     </div>
 </div>-->
 <!-- Navigation -->
-<div class="float-panel data-top="0" data-scroll="400" ">
+<div class="float-panel data-top="0" data-scroll="300" ">
 <div class="navbar navbar-inverse navbar-fixed-top main-navigation" role="navigation">
       <div class="container">
 <div class="navbar-header col-md-3 col-sm-3">
@@ -42,7 +50,7 @@
                          <span class="icon-bar"></span>
        </div>
                                     <a class="navbar-brand" href=""><img src="resources/img/bzlogo.png" alt=""/></a>
-                                </div>
+        </div>
                                 <div class="collapse navbar-collapse">
                                     <ul class="nav navbar-nav pull-right col-lg-6 col-md-7 col-sm-9 col-xs-12">
                                         <li><a class="" href="">Home</a></li>
@@ -53,9 +61,9 @@
                                   </ul>           
                                 </div>
                                 <!--/.nav-collapse -->
-                            </div>
+    </div>
   </div>
-                 </div>       
+</div>       
 <!-- hero video -->
 
 <div class="hero">
@@ -65,7 +73,7 @@
         	<source src="video/Cheer-up.mp4" type="video/mp4">
             <source src="video/Cheer-up.webm" type="video/webm">
           <source src="video/Cheer-up.ogv" type="video/ogg">
-        </video>
+      </video>
       <h1></h1>
       <span class="type-it"></span>
     </div>
@@ -87,48 +95,34 @@
             </div>
               <div class="col-xs-12 col-sm-6 col-m-5 col-lg-5">
             	<div class="banner bg-secondary">
-                	<div class="clear-fix banner_wrap banner-content">
+                	<div class=" banner_wrap banner-content">
                     <h1>What teachers have to say</h1>
-                    	
-                        
-                        
-                        <div class="slideshow-container">
-                          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  							<a class="next" onclick="plusSlides(1)">&#10095;</a>
-  <div class="mySlides fade">
-    <div class="text">This is a example quote from a teacher</div>
-  </div>
+						<p>Completely re-engineer go forward platforms and fully tested process improvements. Professionally mesh quality synergy via diverse potentialities. Competently benchmarkEfficiently maintain extensible web services with inexpensive ....</p>
+                        <p><em>john Doe</em></p>
 
-  <div class="mySlides fade">
-    <div class="text">This is a example quote from a teache</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="text">This is a example quote from a teache</div>
-  </div>
 </div>
                         
                         
                         
                         
-                    </div>
                 </div>
           </div>
-        </div>
-    </div>
+      </div>
+  </div>
+</div>
 </div>
 <!-- Latest videos -->
 <div class="just-added">
 	<div class="container">
     <div class="row">
-    	<div class="col-md-12">
+   	  <div class="col-md-12">
         	<h3>LATEST VIDEOS</h3>
         </div>
     </div>
     	<div class="row">
-<div class="col-xs-6 col-sm-4 col-md-4">
+<div class="col-xs-12 col-sm-4 col-md-4">
             	<div class="card">
-  					<img src="resources/img/girl-blue.jpg" alt="cardimg" style="width:100%">
+  					<img src="resources/img/girl-thumbs.jpg" alt="cardimg" style="width:100%">
   					<div class="container-card">
                     <h6>IF I KNEW THEN WHAT I KNOW NOW</h6>
                     <h3>If I Knew Then, What I Know Now</h3>
@@ -137,10 +131,10 @@
                     <button class="button"><h6>play</h6></button>
   </div>
 </div>
-        	</div>
-<div class="col-xs-6 col-sm-4 col-md-4">
+       	  </div>
+<div class="col-xs-12 col-sm-4 col-md-4">
             	<div class="card">
-  					<img src="resources/img/girl-blue.jpg" alt="cardimg" style="width:100%">
+  					<img src="resources/img/girl-blue-blue.jpg" alt="cardimg" style="width:100%">
   					<div class="container-card">
                     <h6>IF I KNEW THEN WHAT I KNOW NOW</h6>
                     <h3>If I Knew Then, What I Know Now</h3>
@@ -149,10 +143,10 @@
                     <button class="button"><h6>play</h6></button>
   </div>
 </div>
-        	</div>
-            <div class="col-xs-6 col-sm-4 col-md-4">
+       	  </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
             	<div class="card">
-  					<img src="resources/img/girl-blue.jpg" alt="cardimg" style="width:100%">
+  					<img src="resources/img/girl-green.jpg" alt="cardimg" style="width:100%">
   					<div class="container-card">
                     <h6>IF I KNEW THEN WHAT I KNOW NOW</h6>
                     <h3>If I Knew Then, What I Know Now</h3>
@@ -243,7 +237,7 @@
             	<div class="row">
                 	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     	<div class="most-watched-img">
-                        	<img src="resources/img/girl-blue.jpg">
+                        	<img src="resources/img/girl-blue-blue.jpg">
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
